@@ -116,7 +116,7 @@ namespace MineSweeper
 			for (int i = 0; i < Cells.GetLength (0); i++) {
 				for (int j = 0; j < Cells.GetLength (1); j++) {
 					if (Cells [i, j].Contains (x, y) && Cells[i,j].isClicked == false) {  //Calls to the GameSquare.Contains function.  
-						Cells [i, j].isFlagged = true; 
+						Cells [i, j].isFlagged = !Cells [i, j].isFlagged; 
 					}
 				}
 			}

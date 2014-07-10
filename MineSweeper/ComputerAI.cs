@@ -38,20 +38,20 @@ namespace MineSweeper
 		}
 		public void SingleConnectedMine(GameSquare[,] cells, GameBoard game, int x, int y)
 		{
-			if (cells [x, y - 1].isClicked == true && cells [x - 1, y].isClicked == true && cells [x + 1, y].isClicked == true ) { //is it a corner?
-				for (int i = x - 1; i <= x + 1; i++) {
-					for (int j = y - 1; j <= y + 1; j++) {
-						if ((i >= 0 && i < cells.GetLength (0)) && (j >= 0 && j < cells.GetLength (1))) {
-							if (cells [i, j].isClicked == false) {
-								int xPos = cells [i, j].xPosition + 5;
-								int yPos = cells [i, j].yPosition - 5;
-								Mouse.SetPosition (xPos, yPos);
-								game.FlagCell (cells, xPos, yPos);
-							}
-						}
-					}
-				}
-			}
+//			if (cells [x, y - 1].isClicked == true && cells [x - 1, y].isClicked == true && cells [x + 1, y].isClicked == true ) { //is it a corner?
+//				for (int i = x - 1; i <= x + 1; i++) {
+//					for (int j = y - 1; j <= y + 1; j++) {
+//						if ((i >= 0 && i < cells.GetLength (0)) && (j >= 0 && j < cells.GetLength (1))) {
+//							if (cells [i, j].isClicked == false) {
+//								int xPos = cells [i, j].xPosition + 5;
+//								int yPos = cells [i, j].yPosition - 5;
+//								Mouse.SetPosition (xPos, yPos);
+//								game.FlagCell (cells, xPos, yPos);
+//							}
+//						}
+//					}
+//				}
+//			}
 		}
 	}
 }
