@@ -1,0 +1,25 @@
+﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="7/10/2014 9:28:36 PM">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MineSweeper/ComputerAI.cs">
+    <Files>
+      <File FileName="MineSweeper/Main.cs" Line="1" Column="1" />
+      <File FileName="MineSweeper/Game1.cs" Line="144" Column="87" />
+      <File FileName="MineSweeper/ComputerAI.cs" Line="41" Column="1" />
+      <File FileName="MineSweeper/GameBoard.cs" Line="93" Column="4" />
+      <File FileName="MineSweeper/GameSqaure.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MineSweeper" expanded="True">
+            <Node name="ComputerAI.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
